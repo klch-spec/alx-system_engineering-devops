@@ -1,0 +1,20 @@
+Create a repo on Git
+
+Obtain a personal access token from git's developer settings (in case you lost your token)
+Clone your repo from your linux machine to git using the below command:
+        git clone https://<personal access token>@github.com/<username>/<repo>.git
+        eg git clone https://ghp_kvDRqdq363kAxexBjK80Mrp...@github.com/klch-spec/alx-pre_c.git
+Update your git identity using the below commands
+        git config --global  user.name <username>
+        git config --global user.email <mail>
+Create a README.md file and update the repo using the below command
+        git add <filename>
+to add all files and changes, use the below command
+	git add .
+To confirm the changes to your repo, use the below command:
+	git status (this will list all your status with descriptions and clolour codes)
+Commit your changes using the below command
+	git commit -m"Something descriptive for the change"
+Finally, synchronize your change using the below command:
+	git push
+
