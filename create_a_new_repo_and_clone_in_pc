@@ -15,6 +15,11 @@ To confirm the changes to your repo, use the below command:
 	git status (this will list all your status with descriptions and clolour codes)
 Commit your changes using the below command
 	git commit -m"Something descriptive for the change"
-Finally, synchronize your change using the below command:
+For the first time, to push to git hub, use the below command:
+	git push --set-upstream https://github.com/<username>/<repo> master
+	e.g. - git push --set-upstream https://github.com/klch-spec/alx-system_e... master
+Finally, keep synchronizing your changes using the below command:
 	git push
+	provide your username
+	provide your personal access token which was used to clone your repo as above
 
